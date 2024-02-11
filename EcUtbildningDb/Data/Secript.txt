@@ -1,0 +1,61 @@
+Remove-Migration -Force
+
+
+Add-Migration 1
+
+
+
+Update-Database
+
+
+
+
+- EcDB:
+
+
+   -Data:
+     - Config:
+      - CourseConfiguration.cs
+      - CoursePlanConfiguration.cs
+      - InstructorConfiguration.cs
+      - SchoolConfiguration.cs
+      - StudentConfiguration.cs
+     -AppSettings.cs
+      
+
+
+  - Entities:
+    - Course.cs
+    - Instructor.cs
+    - School.cs
+    - Student.cs
+    - CoursePlan.cs
+
+
+
+   - IRepository:
+          
+         -ICoursePlanRepository.cs
+         -ICourseRepository.cs
+         -IInstructorRepository.cs
+         -IMenuRepository.cs
+         -ISchoolRepository.cs
+         -IStudentRepository.cs
+
+
+
+  - Services:
+         - CourseService.cs
+         - InstructorService.cs
+         - SchoolService.cs
+         - StudentService.cs
+         - CoursePlanService.cs
+         - MenuService.cs
+         -UI:
+            -MenuService.cs
+
+
+
+   -Program.cs
+ 
+
