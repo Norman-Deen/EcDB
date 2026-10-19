@@ -31,8 +31,8 @@ It was built to practice:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/EcDB.git
-````
+   git clone https://github.com/Norman-Deen/EcDB.git
+```
 
 2. **Open the solution in Visual Studio**
 
@@ -44,7 +44,7 @@ It was built to practice:
 
    ```bash
    dotnet build
-   dotnet run
+   dotnet run --project EcUtbildningDb/EcDB.csproj
    ```
 
 ---
